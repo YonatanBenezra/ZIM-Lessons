@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 5rem;
+}
+
+div:hover::before {
+    content: "Gello there";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: plum;
+}

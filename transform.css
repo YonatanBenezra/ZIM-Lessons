@@ -1,0 +1,31 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 5rem;
+}
+
+.rotated-box {
+    transform: rotate(30deg);
+}
+
+.scaled-box {
+    transition: 3s ease-in;
+}
+
+.scaled-box:hover {
+    transform: scale(1.5);
+}
+
+.moving-box {
+    transition: 10ms ease-in;
+}
+.moving-box:hover {
+    transform: translateX(200px)
+}
+.skew-box {
+    transition: 10ms ease-in;
+}
+.skew-box:hover {
+    transform: skew(200deg)
+}
